@@ -8,7 +8,7 @@ import numpy as np
 
 
 # Load dataset
-data = pd.read_csv("data/Salary_Data.csv")
+data = pd.read_csv("Salary_Data.csv")
 
 # Define features and target
 X = data[['Total Experience', 'Team Lead Experience', 'Project Manager Experience', 'Certifications']]
