@@ -10,6 +10,8 @@ import shap
 import warnings
 import os
 warnings.filterwarnings("ignore")
+import yagmail
+from fpdf import FPDF
 
 # -------------------- USER LOGIN SYSTEM --------------------
 if "logged_in" not in st.session_state:
