@@ -128,7 +128,7 @@ if st.button("Predict Salary"):
     # Similar profiles
     st.markdown("### 🧑‍🤝‍🧑 Similar Profiles")
     try:
-        df = pd.read_csv("data/Salary_Data.csv")
+        df = pd.read_csv("Salary_Data.csv")
         similar = df[
             (abs(df["Total Experience"] - total_exp) <= 1.0) &
             (abs(df["Team Lead Experience"] - lead_exp) <= 1.0) &
